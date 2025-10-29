@@ -29,6 +29,11 @@
   font-weight: 800;
 }
 
+.text-underline {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
 /* Button */
 .remove-button-padding {
   padding-inline: 0;

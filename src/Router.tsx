@@ -8,6 +8,7 @@ import { BookDesigner } from "./Page/BookDesigner/BookDesigner";
 import { Team } from "./Page/Team/Team";
 import { Gallery } from "./Page/Home/Gallery/Gallery";
 import { projectLoader } from "./loaders/projectLoader";
+import { FindUs } from "./Page/FindUs/FindUs";
 
 export const router = createHashRouter([
   {
@@ -35,6 +36,10 @@ export const router = createHashRouter([
       {
         path: "/the-team",
         element: <Team />,
+      },
+      {
+        path: "/find-us",
+        element: <FindUs />,
       },
     ],
   },

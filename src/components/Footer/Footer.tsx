@@ -50,8 +50,8 @@ export const Footer = () => {
               <NavLink className="no-link-line text-small" to={"/"}>
                 FAQ
               </NavLink>
-              <NavLink className="no-link-line text-small" to={"/"}>
-                Contact us
+              <NavLink className="no-link-line text-small" to={"/find-us"}>
+                Find us
               </NavLink>
             </div>
 

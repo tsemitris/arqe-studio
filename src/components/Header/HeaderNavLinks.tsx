@@ -23,10 +23,10 @@ export const HeaderNavLinks = ({ navStatus }: IHeaderNavLinksProp) => {
       </NavLink>
       <NavLink
         className="no-link-line text-uppercase primary-color"
-        to="/"
+        to="/find-us"
         onClick={navStatus ? () => navStatus((prev) => !prev) : undefined}
       >
-        Contact us
+        Find us
       </NavLink>
       <NavLink
         className="no-link-line text-uppercase primary-color"

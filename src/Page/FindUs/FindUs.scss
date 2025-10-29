@@ -1,0 +1,55 @@
+.find-us-section {
+  .find-us-hero {
+    background-image: url("/images/find-us/libertyCiryOfficeLocation.webp");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+
+  .find-us-content {
+    padding: 5rem 1rem;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    .find-us-content-inner-container {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      overflow: hidden;
+
+      &:hover {
+        p {
+          transform: translateY(0);
+          transition: transform 0.3s ease-in-out;
+        }
+      }
+
+      .office-location-image {
+        background-size: cover;
+        background-position: center;
+        flex: 1;
+        height: 300px;
+      }
+
+      p {
+        background-color: var(--color-primary);
+        color: white;
+        padding: 2rem 3rem;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+
+        span {
+          color: white;
+        }
+      }
+    }
+  }
+}
