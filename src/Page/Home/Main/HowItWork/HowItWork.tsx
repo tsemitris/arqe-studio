@@ -16,7 +16,7 @@ export const HowItWork = () => {
         </div>
 
         <StepByStepCard
-          image="/images/home/cards/consulter.webp"
+          image="images/home/cards/consulter.webp"
           imageAlt={
             "Woman with white shirt sitting in fron of a computer screen"
           }
@@ -29,7 +29,7 @@ export const HowItWork = () => {
         />
 
         <StepByStepCard
-          image="/images/home/cards/people-talking.webp"
+          image="images/home/cards/people-talking.webp"
           imageAlt={
             "A group sits indoors on sofas, conversing in a relaxed setting with palm trees visible through large windows, suggesting a coastal location."
           }
@@ -40,7 +40,7 @@ export const HowItWork = () => {
         />
 
         <StepByStepCard
-          image="/images/home/cards/people-standing.webp"
+          image="images/home/cards/people-standing.webp"
           imageAlt={
             "A group of four animated characters stands indoors. They wear eclectic outfits, showcasing diverse styles like suspenders, suits, and bold patterns, creating a playful and quirky mood."
           }
@@ -51,7 +51,7 @@ export const HowItWork = () => {
         />
 
         <StepByStepCard
-          image="/images/home/cards/people-argue.webp"
+          image="images/home/cards/people-argue.webp"
           imageAlt={
             "Three animated men in a tense discussion, wearing casual and semi-formal attire. One gestures emphatically; another listens intently. The setting is subdued."
           }
@@ -62,7 +62,7 @@ export const HowItWork = () => {
         />
 
         <StepByStepCard
-          image="/images/home/cards/franks-living-room.webp"
+          image="images/home/cards/franks-living-room.webp"
           imageAlt={
             "Three animated men in a tense discussion, wearing casual and semi-formal attire. One gestures emphatically; another listens intently. The setting is subdued."
           }

@@ -40,7 +40,7 @@ export const Header = () => {
       <header>
         <div className="header-content max-section-width">
           <img
-            src="/logo/dark/ArqeStudioLowQuality.webp"
+            src="logo/dark/ArqeStudioLowQuality.webp"
             alt="Arqe studio logotype"
             width={41}
             height={52}

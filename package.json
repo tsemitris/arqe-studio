@@ -2,7 +2,7 @@
   "name": "arqe-studio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tsemitris.github.io/arqe-studio",
+  "homepage": "https://tsemitris.github.io/arqe-studio/",
   "type": "module",
   "scripts": {
     "dev": "vite",

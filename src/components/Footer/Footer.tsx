@@ -8,7 +8,7 @@ export const Footer = () => {
     <>
       <section className="pre-footer">
         <img
-          src="/images/home/footer/frank-house-kitchen.webp"
+          src="images/home/footer/frank-house-kitchen.webp"
           alt="Modern kitchen with ambient lighting, featuring a central island with bar stools, sleek cabinetry, and a large window revealing a dark night view. A potted plant adds greenery."
           width={100}
           height={100}
@@ -79,7 +79,7 @@ export const Footer = () => {
 
         <div className="lower-footer-container max-section-width">
           <img
-            src="/logo/dark/ArqeStudioLowQuality.webp"
+            src="logo/dark/ArqeStudioLowQuality.webp"
             alt="Arqe studio logotype"
             width={26}
             height={34}

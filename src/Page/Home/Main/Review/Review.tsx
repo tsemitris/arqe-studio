@@ -4,7 +4,7 @@ export const Review = () => {
       <section className="review-section">
         <div className="review-content max-section-width">
           <img
-            src="/images/home/review/sophia-lane-review.webp"
+            src="images/home/review/sophia-lane-review.webp"
             alt=""
             width={138}
             height={138}
