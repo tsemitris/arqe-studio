@@ -1,4 +1,7 @@
 export const FindUs = () => {
+  document.title = "Find us - Arqé Studio";
+  window.scrollTo(0, 0);
+
   return (
     <>
       <section className="find-us-section">
