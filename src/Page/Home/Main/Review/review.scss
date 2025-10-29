@@ -1,0 +1,33 @@
+@use "./../../../../style/breakpoints.scss" as *;
+
+.review-section {
+  background-color: var(--color-primary);
+  padding-block: 6rem;
+
+  .review-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+
+    p {
+      max-width: 420px;
+      height: fit-content;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .review-section {
+    .review-content {
+      flex-direction: column;
+      max-width: 80%;
+      gap: 2rem;
+
+      p {
+        max-width: 420px;
+        height: fit-content;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@use "./../../../../style/breakpoints.scss" as *;
+
+.how-it-work-section {
+  padding-block: 4rem;
+
+  p {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .how-it-work-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}

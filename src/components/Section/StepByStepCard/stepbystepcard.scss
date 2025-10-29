@@ -1,0 +1,78 @@
+@use "./../../../style/breakpoints.scss" as *;
+
+.right-image {
+  flex-direction: row-reverse;
+}
+
+.step-by-step-card-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: clamp(2rem, -10rem + 24vw, 5rem);
+
+  img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .step-by-step-card-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+
+    div {
+      .step-by-step-card-title {
+        display: flex;
+        align-items: flex-end;
+        gap: 0.5rem;
+        color: var(--color-primary);
+
+        .icon {
+          font-size: 2rem;
+          color: var(--color-primary);
+        }
+      }
+
+      p {
+        max-width: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .step-by-step-card-container {
+    flex-direction: column;
+    max-width: 80%;
+
+    img {
+      width: 100%;
+    }
+
+    .step-by-step-card-content {
+      width: 100%;
+      justify-content: flex-start;
+
+      div {
+        .step-by-step-card-title {
+          align-items: center;
+        }
+
+        p {
+          max-width: none;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .step-by-step-card-container {
+    max-width: none;
+    width: 90%;
+  }
+}

@@ -1,0 +1,51 @@
+:root {
+  --color-primary: #2a3d46;
+  --color-primary-hover: #4b5b63;
+  --color-secondary: #d29875;
+  --color-secondary-hover: #c0a899;
+}
+
+/* Text colors */
+
+* {
+  color: black;
+}
+
+.primary-text-color {
+  color: var(--color-primary);
+}
+.secondary-text-color {
+  color: white;
+}
+
+/* Button colors */
+.primary-button {
+  background-color: var(--color-primary);
+  color: white;
+
+  &:hover {
+    background-color: var(--color-primary-hover);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+.secondary-button {
+  background-color: var(--color-secondary);
+  color: black;
+
+  &:hover {
+    background-color: var(--color-secondary-hover);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+.no-background-button {
+  background-color: transparent;
+  color: black;
+}

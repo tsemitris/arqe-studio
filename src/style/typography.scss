@@ -1,0 +1,56 @@
+/* Typography Styles */
+@font-face {
+  font-family: "ChettaVissto";
+  src: url("/fonts/ChettaVissto.ttf");
+}
+
+* {
+  font-family: "Abhaya Libre", serif;
+  letter-spacing: -0.7px;
+}
+
+/* Font Sizes for Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "ChettaVissto", serif;
+}
+
+h1 {
+  font-size: clamp(2.25rem, 1.875rem + 1vw, 2.5rem); /* 40px - 36px*/
+}
+h2 {
+  font-size: clamp(2rem, 1.625rem + 1vw, 2.25rem); /* 36px - 32px */
+}
+h3 {
+  font-size: clamp(1.5rem, 0.75rem + 2vw, 2rem); /* 32px - 24px */
+}
+h4 {
+  font-size: clamp(1.25rem, 0.875rem + 1vw, 1.5rem); /* 24px - 20px */
+}
+h5 {
+  font-size: clamp(1rem, 0.625rem + 1vw, 1.25rem); /* 20px - 16px */
+}
+h6 {
+  font-size: 1rem; /* 16px */
+}
+
+/* Paragraph Styles */
+.text-large {
+  font-size: clamp(1.25rem, 0.875rem + 1vw, 1.5rem); /* 24px - 20px*/
+}
+.text-medium {
+  font-size: clamp(1.125rem, 0.9375rem + 0.5vw, 1.25rem); /* 20px - 18px */
+}
+.text-small {
+  font-size: clamp(1rem, 0.8125rem + 0.5vw, 1.125rem); /* 18px - 16px*/
+}
+.text-xsmall {
+  font-size: 1rem; /* 16px */
+}
+.text-xxsmall {
+  font-size: 0.875rem; /* 14px */
+}

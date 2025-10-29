@@ -1,0 +1,55 @@
+/* Section width */
+.max-section-width {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-inline: 1rem; /* 16px */
+}
+
+/* Link style */
+.no-link-line {
+  text-decoration: none;
+}
+
+/* Text */
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: 800;
+}
+
+/* Button */
+.remove-button-padding {
+  padding-inline: 0;
+}
+
+.active-comparison-button {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  font-weight: 700;
+}
+.no-active-comparison-button {
+  opacity: 0.7;
+
+  &:hover {
+    font-weight: 700;
+    opacity: 1;
+  }
+}
+
+/* Image zoom in cursor */
+.review-image-container,
+.dropdown-big-image {
+  cursor: zoom-in;
+}

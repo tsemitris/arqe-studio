@@ -1,0 +1,32 @@
+.team-member-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+
+  .team-member-background {
+    width: 100%;
+    height: 400px;
+    background-color: var(--color-primary);
+    position: relative;
+
+    .team-member-image {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 450px;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .white-shape {
+      background-color: white;
+      width: 100%;
+      height: 100px;
+    }
+  }
+
+  .team-member-name {
+    margin: 1rem 0 0.25rem 0;
+  }
+}
