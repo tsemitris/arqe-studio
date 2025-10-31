@@ -49,7 +49,7 @@ export const Gallery = () => {
             >
               <div>
                 <p className="text-small">{project.publishDate}</p>
-                <h4>{project.title}</h4>
+                <h4 className="text-left">{project.title}</h4>
               </div>
             </button>
           ))

@@ -31,6 +31,10 @@ export const ComparisonSection = () => {
     });
   };
 
+  const latestProjects = projects
+    .sort((a, b) => b.id - a.id)
+    .slice(0, maxReviewInterior);
+
   return (
     <div className="max-section-width comparison-section">
       {projects.length <= 1 ? null : (
@@ -65,7 +69,7 @@ export const ComparisonSection = () => {
           className="comparison-slide-container"
           style={{ width: `${100 * reviewInteriorLenght}%` }}
         >
-          {projects.slice(-maxReviewInterior).map((project: IProject) => (
+          {latestProjects.map((project: IProject) => (
             <div key={project.id} className="comparison-project-container">
               <div className="comparison-images-container">
                 {isDesktop ? (
