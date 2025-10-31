@@ -12,14 +12,14 @@ export const team = [
     id: 1,
     name: "Mathieu Garnier",
     image: "images/team/MathieuGarnier.webp",
-    position: "Lead Interior Designer",
+    position: "Interior Designer",
     country: 1,
   },
   {
     id: 2,
     name: "Rafaela Frost",
     image: "images/team/RafaelaFrost.webp",
-    position: "Senior Decor Designer",
+    position: "Interior Designer",
     country: 1,
   },
 
