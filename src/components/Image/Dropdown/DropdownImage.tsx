@@ -51,7 +51,7 @@ export const DropdownImage = ({ room }: IDropdownImageProp) => {
           className="dropdown-big-image"
           src={bigImage}
           onError={(e) =>
-            (e.currentTarget.src = "/images/no-found/no-found.webp")
+            (e.currentTarget.src = "images/no-found/no-found.webp")
           }
           alt="Big image of the interior"
           width={100}
@@ -67,7 +67,7 @@ export const DropdownImage = ({ room }: IDropdownImageProp) => {
               className={bigImage === image ? "active-image" : undefined}
               src={image}
               onError={(e) =>
-                (e.currentTarget.src = "/images/no-found/no-found.webp")
+                (e.currentTarget.src = "images/no-found/no-found.webp")
               }
               alt={`image of ${room.name}`}
               width={100}

@@ -10,7 +10,7 @@ export const ShowZoomImage = ({ image, onClickClose }: IShowZoomImageProps) => {
         <img
           src={image}
           onError={(e) =>
-            (e.currentTarget.src = "/images/no-found/no-found.webp")
+            (e.currentTarget.src = "images/no-found/no-found.webp")
           }
           alt="zoom image"
           width={100}
