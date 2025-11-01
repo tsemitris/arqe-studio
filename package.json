@@ -2,14 +2,14 @@
   "name": "arqe-studio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tsemitris.github.io/arqe-studio/",
+  "homepage": "https://arqestudio.site/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && copy CNAME dist\\CNAME",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
