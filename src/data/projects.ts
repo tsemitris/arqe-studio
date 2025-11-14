@@ -160,4 +160,47 @@ export const projects = [
     clientResult: "Client result missing",
     stars: 3,
   },
+  {
+    id: 4,
+    publishDate: "12-11-2025",
+    title: "Soft Darkness",
+    reviewImages: [
+      "images/houses/4/living-room/2.webp",
+      "images/houses/4/before/1.webp",
+    ],
+    interior: [
+      {
+        name: "Hallway",
+        icon: "meeting_room",
+        images: ["images/houses/4/hallway/1.webp"],
+      },
+      {
+        name: "Kitchen",
+        icon: "chef_hat",
+        images: ["images/houses/4/kitchen/1.webp"],
+      },
+      {
+        name: "Living Room",
+        icon: "chair",
+        images: [
+          "images/houses/4/living-room/1.webp",
+          "images/houses/4/living-room/2.webp",
+          "images/houses/4/living-room/3.webp",
+        ],
+      },
+      {
+        name: "Bedroom",
+        icon: "king_bed",
+        images: [
+          "images/houses/4/bedroom/1.webp",
+          "images/houses/4/bedroom/2.webp",
+        ],
+      },
+    ],
+    decorDesigner: "Mathieu Garnier, Rafaela Frost",
+    client: "Frank",
+    clientChallenge: "I want my home to have dark tones with a kinky touch.",
+    clientResult: "Client result missing",
+    stars: 3,
+  },
 ];
