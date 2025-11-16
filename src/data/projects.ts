@@ -217,7 +217,7 @@ export const projects = [
   },
   {
     id: 5,
-    publishDate: "13-11-2025",
+    publishDate: "15-11-2025",
     title: "Archway villa",
     reviewImages: [
       "images/houses/5/great-room/2.webp",
