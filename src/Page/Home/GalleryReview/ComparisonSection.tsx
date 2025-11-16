@@ -87,11 +87,22 @@ export const ComparisonSection = () => {
                       <p className="text-medium text-bold">
                         Client's challenge
                       </p>
-                      <p className="text-small">"{project.clientChallenge}"</p>
+                      <p className="text-small">
+                        "
+                        {project.clientChallenge?.trim()
+                          ? project.clientChallenge
+                          : "No challenge provided"}
+                      </p>
                     </div>
                     <div>
                       <p className="text-medium text-bold">Result</p>
-                      <p className="text-small">"{project.clientResult}"</p>
+                      <p className="text-small">
+                        "
+                        {project.clientResult?.trim()
+                          ? project.clientResult
+                          : "No result provided"}
+                        "
+                      </p>
                     </div>
                   </>
                 ) : (
