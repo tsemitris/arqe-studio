@@ -1,3 +1,15 @@
+/**
+ * Icons used:
+ * chef_hat - kitchen
+ * chair - living_room
+ * scene - extra
+ * king_bed - bedroom
+ * meeting_room - hallway
+ * bathtub - bathroom
+ * desk - office
+ * sports_gymnastics - gym
+ */
+
 export const projects = [
   {
     id: 1,
@@ -115,8 +127,8 @@ export const projects = [
     ],
     decorDesigner: "Rafaela Frost",
     client: "Frank",
-    clientChallenge: "Client challenge missing",
-    clientResult: "Client result missing",
+    clientChallenge: "",
+    clientResult: "",
     stars: 3,
   },
   {
@@ -156,8 +168,8 @@ export const projects = [
     ],
     decorDesigner: "Rafaela Frost",
     client: "Frank",
-    clientChallenge: "Client challenge missing",
-    clientResult: "Client result missing",
+    clientChallenge: "",
+    clientResult: "",
     stars: 3,
   },
   {
@@ -200,7 +212,78 @@ export const projects = [
     decorDesigner: "Mathieu Garnier, Rafaela Frost",
     client: "Frank",
     clientChallenge: "I want my home to have dark tones with a kinky touch.",
-    clientResult: "Client result missing",
+    clientResult: "",
+    stars: 3,
+  },
+  {
+    id: 5,
+    publishDate: "13-11-2025",
+    title: "Archway villa",
+    reviewImages: [
+      "images/houses/5/great-room/2.webp",
+      "images/houses/5/before/1.webp",
+    ],
+    interior: [
+      {
+        name: "Hallways",
+        icon: "meeting_room",
+        images: [
+          "images/houses/5/hallway/entrance/1.webp",
+          "images/houses/5/hallway/upstairs/1.webp",
+          "images/houses/5/hallway/upstairs/2.webp",
+          "images/houses/5/hallway/upstairs/3.webp",
+          "images/houses/5/hallway/upstairs/4.webp",
+        ],
+      },
+      {
+        name: "Great Room",
+        icon: "chair",
+        images: [
+          "images/houses/5/great-room/1.webp",
+          "images/houses/5/great-room/2.webp",
+          "images/houses/5/great-room/3.webp",
+          "images/houses/5/great-room/4.webp",
+        ],
+      },
+      {
+        name: "Master Bedroom",
+        icon: "king_bed",
+        images: [
+          "images/houses/5/bedroom/master/1.webp",
+          "images/houses/5/bedroom/master/2.webp",
+          "images/houses/5/bedroom/master/3.webp",
+          "images/houses/5/bedroom/master/4.webp",
+        ],
+      },
+      {
+        name: "Second Bedroom",
+        icon: "king_bed",
+        images: [
+          "images/houses/5/bedroom/second-bedroom/1.webp",
+          "images/houses/5/bedroom/second-bedroom/2.webp",
+          "images/houses/5/bedroom/second-bedroom/3.webp",
+        ],
+      },
+      {
+        name: "Third Bedroom",
+        icon: "king_bed",
+        images: ["images/houses/5/bedroom/third-bedroom/1.webp"],
+      },
+      {
+        name: "Bathroom",
+        icon: "bathtub",
+        images: ["images/houses/5/bathroom/1.webp"],
+      },
+      {
+        name: "Gym",
+        icon: "sports_gymnastics",
+        images: ["images/houses/5/extra/gym/1.webp"],
+      },
+    ],
+    decorDesigner: "Rafaela Frost",
+    client: "Frank",
+    clientChallenge: "",
+    clientResult: "",
     stars: 3,
   },
 ];
