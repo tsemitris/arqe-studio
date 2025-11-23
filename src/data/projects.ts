@@ -286,4 +286,69 @@ export const projects = [
     clientResult: "",
     stars: 3,
   },
+  {
+    id: 6,
+    publishDate: "19-11-2025",
+    title: "Dark paradise villa",
+    reviewImages: [
+      "images/houses/6/extra/jacuzzi/1.webp",
+      "images/houses/6/before/1.webp",
+    ],
+    interior: [
+      {
+        name: "Hallways",
+        icon: "meeting_room",
+        images: [
+          "images/houses/6/hallway/1.webp",
+          "images/houses/6/hallway/2.webp",
+          "images/houses/6/hallway/3.webp",
+          "images/houses/6/hallway/4.webp",
+        ],
+      },
+      {
+        name: "Great Room",
+        icon: "chair",
+        images: [
+          "images/houses/6/great-room/1.webp",
+          "images/houses/6/great-room/2.webp",
+          "images/houses/6/great-room/3.webp",
+          "images/houses/6/great-room/4.webp",
+          "images/houses/6/great-room/5.webp",
+        ],
+      },
+      {
+        name: "Master Bedroom",
+        icon: "king_bed",
+        images: [
+          "images/houses/6/bedroom/master/1.webp",
+          "images/houses/6/bedroom/master/2.webp",
+          "images/houses/6/bedroom/master/3.webp",
+          "images/houses/6/bedroom/master/4.webp",
+        ],
+      },
+      {
+        name: "Second Bedroom",
+        icon: "king_bed",
+        images: [
+          "images/houses/6/bedroom/second/1.webp",
+          "images/houses/6/bedroom/second/2.webp",
+        ],
+      },
+      {
+        name: "Third Bedroom",
+        icon: "king_bed",
+        images: ["images/houses/6/bedroom/third/1.webp"],
+      },
+      {
+        name: "Extra",
+        icon: "scene",
+        images: ["images/houses/6/extra/wardrobe/1.webp"],
+      },
+    ],
+    decorDesigner: "Rafaela Frost",
+    client: "Frank",
+    clientChallenge: "I want my home to have dark tones.",
+    clientResult: "",
+    stars: 3,
+  },
 ];
